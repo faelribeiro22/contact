@@ -7,7 +7,7 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, './dist'),
-    publicPath: 'http://localhost:9003/',
+    publicPath: process.env.PUBLIC_PATH,
   },
   mode: 'development',
   devServer: {
