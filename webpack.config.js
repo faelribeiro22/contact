@@ -7,7 +7,7 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/',
+    publicPath: 'https://peaceful-carson-5a1832.netlify.app/',
   },
   mode: 'development',
   devServer: {
