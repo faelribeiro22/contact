@@ -7,6 +7,7 @@ const Contact = () => {
   return (
     <div className="contact-page">
       <h1>Contact</h1>
+      <h2>Testeeeeeeeeeeee</h2>
       <p>
         Esta é uma simples página de contato.
       </p>
